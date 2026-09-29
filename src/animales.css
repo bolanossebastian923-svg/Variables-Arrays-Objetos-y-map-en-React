@@ -1,0 +1,68 @@
+.seccion-animales {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.seccion-animales h2 {
+    text-align: center;
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.grid-animales {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.tarjeta-animal {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    overflow: hidden; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    transition: all 0.25s ease;
+}
+
+.tarjeta-animal:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    border-color: #2b5278;
+}
+
+.img-animal {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+}
+
+.tarjeta-contenido {
+    padding: 15px;
+}
+
+.numero-id {
+    background-color: #f0f4f8;
+    color: #2b5278;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 8px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.tarjeta-contenido h3 {
+    font-size: 18px;
+    color: #222;
+    margin: 0 0 10px 0;
+}
+
+.tarjeta-contenido p {
+    font-size: 14px;
+    color: #555;
+    margin: 6px 0;
+    line-height: 1.4;
+}

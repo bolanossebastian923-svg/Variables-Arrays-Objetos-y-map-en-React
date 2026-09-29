@@ -1,0 +1,84 @@
+.contenedor-plantilla {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 25px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.contenedor-plantilla h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #1a252f;
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.tabla-equipo {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px; 
+}
+
+.tabla-equipo th {
+    background-color: #1a252f;
+    color: #ffffff;
+    padding: 12px 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tabla-equipo th:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.tabla-equipo th:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.tabla-equipo td {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    color: #333333;
+    font-size: 15px;
+    transition: all 0.2s ease;
+}
+
+.tabla-equipo tr:hover td {
+    background-color: #f0f3f6;
+    transform: scale(1.01);
+}
+
+.tabla-equipo td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.tabla-equipo td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+
+.img-jugador {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%; 
+    object-fit: cover;
+    border: 2px solid #1a252f;
+}
+
+.badge-numero {
+    background-color: #e74c3c;
+    color: white;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 13px;
+}
